@@ -6,4 +6,7 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="button_start">FACE IT</string>
     <string name="credit_title">Credit</string>
+    <string name="choice1">Your First Choice:</string>
+    <string name="choice2">Your Second Choice:</string>
+    <string name="enternoti">enter text here</string>
 </resources>
