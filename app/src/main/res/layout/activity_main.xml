@@ -9,14 +9,26 @@
          is needed to present your content, e.g. VideoView, SurfaceView,
          TextureView, etc. -->
     <TextView
-        android:id="@+id/fullscreen_content"
+        android:id="@+id/congrats"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="200sp"
+        android:layout_marginTop="75sp"
+        android:gravity = "center"
+        android:keepScreenOn="true"
+        android:text="Congrats!"
+        android:textColor="#33b5e5"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/you_made_it"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginTop="225sp"
         android:gravity="center"
         android:keepScreenOn="true"
-        android:text="@string/dummy_content"
+        android:text="You've successfully made a choice!"
         android:textColor="#33b5e5"
-        android:textSize="50sp"
+        android:textSize="30sp"
         android:textStyle="bold" />
 
     <!-- This FrameLayout insets its children based on system windows using
@@ -36,13 +48,7 @@
             android:orientation="horizontal"
             tools:ignore="UselessParent">
 
-            <Button
-                android:id="@+id/dummy_button"
-                style="?metaButtonBarButtonStyle"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/dummy_button" />
+
 
         </LinearLayout>
 
